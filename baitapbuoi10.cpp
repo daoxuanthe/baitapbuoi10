@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
 
-  int n;
-  printf("Nhap n=");
-  scanf("%d",&n);
+  float n;
+  printf("Nhap n= ");
+  scanf("%f",&n);
   if(n==int(n)){
-    printf("%d la so nguyen",n);
+    printf("%.0f la so nguyen",n);
   }else{
-    printf("%d khong phai la so nguyen",n);
+    printf("%.2f khong phai la so nguyen",n);
   }
 
 }
